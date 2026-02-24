@@ -12,7 +12,7 @@ A lightweight web application built with **Flask** and **SQLite** that captures 
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/rachelannec/simple-form.git](https://github.com/rachelannec/simple-form.git)
+   git clone https://github.com/rachelannec/simple-form.git
    cd form-db
    ```
 2. **Set up a virtual environment**
