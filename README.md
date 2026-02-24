@@ -11,7 +11,7 @@
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/your-username/form-db.git](https://github.com/your-username/form-db.git)
+   git clone [https://github.com/rachelannec/simple-form.git](https://github.com/rachelannec/simple-form.git)
    cd form-db
    ```
 2. **Set up a virtual environment**
@@ -30,12 +30,22 @@
    ```Bash
     python app.py
     ````
-    Tho, I myself, use `flask run` 🙈.
+    > Tho, I myself, use `flask run` 🙈.
 
 ***The app will be available at http://127.0.0.1:5000.***
 
+## Database Location
+
+By default, the SQLite database is handled as follows:
+
+* **File Name:** `form_data.db`
+* **Location:** The file is automatically created in the `/instance` folder (or the root directory) upon the first successful run of the application.
+* **Persistence:** Because SQLite is file-based, your data stays saved even if you restart the Flask server.
+
+> The `.db` file is excluded from version control via `.gitignore` to ensure that local development data is not accidentally pushed to GitHub. 🙉
+
 ## SAMPLE METADATA/SCHEMA
-The database consists of a single table `FormData` with the following structure:
+The database consists of a single table `FormData` with the following structure. You may put the following command on the terminal youself. 
 ```bash
 sqlite3 instance/form_data.db
 sqlite> .header on  
