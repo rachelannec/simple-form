@@ -1,4 +1,5 @@
 # SIMPLE FORM - Flask
+A lightweight web application built with **Flask** and **SQLite** that captures user data through a semantic HTML5 form and persists it in a relational database. This repo focuses on **server-side form processing**, **relational data storage** in a single-table schema, and **dynamic UI rendering** (bootstrap 🔛🔝). 
 
 ![Flask App Demo](./demo/form-demo.gif)
 
