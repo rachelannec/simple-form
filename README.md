@@ -7,7 +7,7 @@
 - SQLite, Flask-SQLAlchemy
 - HTML, Jinja, Bootstrap
 
-## 📦 Installation & Setup
+## Installation & Setup
 
 1. **Clone the repository:**
    ```bash
